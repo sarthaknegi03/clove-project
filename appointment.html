@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment</title>
+  <style>
+    .form-container {
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: transparent; 
+    padding: 20px; 
+    border: 1px solid #EA7D28; 
+    border-radius: 5px; 
+    box-shadow:#EA7D28; 
+    z-index: 1000; 
+    width: 70%;
+    height: 50%;
+    }
+    #form-color{
+      background-color:white;
+      border-radius: 12px;
+      border-top: 50%;
+      width: 200px;
+      height:25px;
+    }
+    .step {
+      color: #EA7D28;
+    }
+    .submit{
+      border-radius: 12px;
+      background-color : #EA7D28;
+      color: white;
+      border: none;
+      width: 100px;
+      height: 50px;
+      /* width: 100px;
+      height: 50px; */
+      
+    }
+    img{
+      width: 1500px;
+      height: 1000px;
+    }
+  </style>
+</head>
+<body>
+  
+  <form id="appointmentForm" class="form-container">
+    <h1>Book Your Consultation at Clove Dental</h1>
+    <h3>Please fill out the form below to book a consultation with Clove Dental.</h3><br> 
+    <h1 class="step">Step 1. Personal Details</h1>
+    <input type="text" id="form-color" placeholder="Full Name">
+    <input type="email" id="form-color" placeholder="Email">
+    <input type="number" id="form-color" placeholder="Mobile">
+    <button class="submit">SUBMIT</button>
+    <!-- <img src="clove logo.png" alt=""> -->
+  </form>
+    <img src="images/clove logo (1).png" alt="">
+    <script>
+        document.getElementById('appointmentForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting
+        alert('Your appointment has been successfully booked!'); // Display the alert message
+        window.location.href = 'clove.html';
+      });
+    </script>
+
+    
+
+</body>
+</html>

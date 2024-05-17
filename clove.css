@@ -1,0 +1,481 @@
+body{
+  line-height: 1;
+  /* color: #444; */
+  overflow-x: hidden;
+  transition:all 1s;
+}
+.main{
+  background: #FFF1E6;
+  width: 1920px;
+  height:112px;
+  padding: 16px 108px 16px 108px;
+  gap: 170px;
+  opacity: 0px;
+
+}
+img{
+  width: 190px;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+}
+.header-main  .dropdown{
+  width: 1335px;
+  height: 69px;
+  gap: 60px;
+  opacity: 0px;
+
+}
+.logo-box{
+  background: #FFF1E6;
+
+}
+.header-main .logo-box{
+  background: #4e3224;
+  width: 18px;
+  min-height: 72px;
+  line-height: 72px;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+/* CSS for dropdown menu */
+/* Style the dropdown container */
+.dropdown {
+    text-align: center;
+    display: inline-block;
+    width: 149px;
+    height: 56px;
+    padding: 20px 0px 20px 0px;
+    /* gap: 0px;
+    opacity: 0px;  */
+}
+/* .dropdown .hidden{
+  background-color: #f6841f;
+} */
+/* #appointmentForm{
+  width: 1160px;
+  height: 792px;
+  top: 20px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+} */
+.logo-box .dropdown .apple{
+  width: 150px;
+  height: 50px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.logo-box .dropdown .mango{
+  width: 100px;
+  height: 50px;
+  /* padding:20px 0px 20px 0px; */
+  text-align: center;
+  opacity: 0px;
+
+}
+.form-cont {
+  display: block;
+  max-width: 300px;
+  padding: 10px;
+}
+.form-container{
+    display: none;
+    /* position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9; */
+}
+/* .form-container {
+  position: fixed;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: white; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  z-index: 1000; 
+  display: none; 
+  width: 50%;
+  height: 50%;
+} */
+.apple{
+  background:#DE6F0D;
+  border-radius: 20px;
+  border-color: transparent;
+}
+
+/* Style the dropdown button */
+.drop-btn {
+    background-color: #FFF1E6;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#FFF1E6;
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    /* z-index: 1; */
+    border-radius: 12px;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;
+} 
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color:#F8943F;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.image-1 {
+  width: 100%;
+  height: 600px; 
+  background-image: url('Frame 52499 (2).png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+.display1{
+  width: 100%;
+  height: 300px;
+  background-position: center;
+}
+.symt-treartment{
+  width: 100%;
+  float: left;
+  padding: 0 2% 30px;
+  background-color:#FFF9F4;
+  ;
+}
+.symt-treartment h1{
+  text-align: center;
+  margin: 50px 0;
+}
+.mango{
+  text-align: center;
+  border-radius: 12px;
+  border-color: #DE6F0D;
+
+}
+.dental-1{
+  width: 100%;
+  height: 600px;
+  background-position: center;
+}
+.parent {
+  display: flex;
+}
+ .fruits{
+  width: 400px;
+  height: 500px;
+  /* top: 2150px;  */
+  /* padding: 60px 145px 60px 145px; */
+  gap: 60px;
+  background-color:#fff9f4;
+  text-align: center;
+  border-radius: 120px;
+  padding: 100px;
+ }
+ .fruits h1{
+  width: 400px;
+ }
+/* .fruits{
+  background-color:#FFF9F4;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: 150px;
+  text-align: center;
+  /* transition: border-color 0.3s ease; */
+/* }  */
+.aero{
+  border-radius: 12px;
+  border-color: #FFF9F4;
+}
+.aeo{
+  border-color:#F8943F;
+  text-align: center;
+  border-radius: 20px;
+  background-color:#F8943F;
+  text-size-adjust: 80%;
+  width: Fixed (400px)px;
+  height: Fixed (72px)px;
+  padding: 26.28px 55.18px 26.28px 55.18px;
+  gap: 13.14px;
+  border-radius: 50px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: white;
+}
+.parent .sugar img{
+  width:600px;
+  height:786px;
+  gap: 24px;
+  opacity: 0px;
+}
+.sugar img{
+  flex: 1;
+  margin-left: 100px;
+  width: 500px;
+  height: 500px;
+  
+}
+.photos img{
+  width: 340px;
+  height: 500px;
+  gap: 24px;
+}
+.photos h1{
+  text-align: center;
+  text-decoration-style: solid;
+
+}
+.doctor{
+  background-color: #FFF9F4;
+  margin-left: 50px;
+  width:1920px;
+  height: 737pxpx;
+  top: 3940px;
+  padding: 80px 108px 80px 108px;
+  gap: 131px;
+  opacity: 0px;
+
+}
+.doctor img{
+  width: 640px;
+  height: 104px;
+}
+.specl img{
+  width: 550px;
+  height: 413px;
+  gap: 40px;
+}
+/* .doctor img dctr{
+  width: 200px;
+  height: 200px;
+  gap: 24px;
+  opacity: 0px;
+
+} */
+.specl img adjust{
+  width: 20px;
+  height: 10px;
+  gap: 24px;
+  opacity: 0px;
+}
+.movement-image{
+  background-color: #FFEFE2;
+}
+.movement-image img{
+  width: 150px;
+  height: 60px;
+  top: 4677px;
+  gap: 49px;
+  opacity: 0px;
+  scroll-behavior: smooth;
+}
+.facility img{
+  width: 1920px;
+  height: 740px;
+  gap: 0px;
+  opacity: 0px;
+}
+.blog-Hub{
+  background-color: #FFF9F4;
+}
+.blog-Hub h1{
+  text-align: center;
+}
+/* .blog-Hub h5{
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.2px;
+  text-align: center;
+} */
+.blog-Hub img{
+  width:1400px;
+  height:511px;
+  gap: 40px;
+  opacity: 0px;
+
+}
+.blog-Hub button{
+  background-color: #fff9f4;
+  border: none;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.2px;  
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+.hand-photo img{
+  width: 1690px;
+  height: 550px;
+  left: 115px;
+  gap: 0px;
+  border-radius: 30px 0px 0px 0px;
+  opacity: 0px;
+
+}
+.hand-photo marquee img{
+  width: 120px;
+  height: 72px;
+  gap: 0px;
+  opacity: 0px;
+  scroll-behavior: smooth;
+}
+.overlay{
+  width: 750px;
+  height: 300px;
+  padding: 40px 60px 40px 60px;
+  gap: 62px;
+  border-radius: 20px;
+  opacity: 0px;
+  margin-left: 200px;
+  z-index: 1;
+  position: absolute;
+}
+.hand-photo {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%; 
+  height: 70%;
+  background-color: white; 
+  transform: translate(-5%, 50%);
+}
+.overlay h1{
+  color: #f6841f;
+}
+  /* .overlay apple{
+  text-align: center;
+  text-decoration-color:#F8943F;
+  text-decoration: transparent;
+  align-items: center;
+  border-radius: 12px;
+} */
+.overlay .apple{
+  width: 300px;
+  height: 72px;
+  padding: 26.28px 55.18px 26.28px 55.18px;
+  gap: 13.14px;
+  border-radius: 20px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 350px;
+  color: white;
+}
+.overlay p{
+  text-align: center;
+  text-decoration: underline;
+}
+.sucess{
+  background-color: #FFF9F4;
+  height: 400px;
+}
+.sucess h1{
+  margin-top: 200px;
+  text-align: center;
+}
+.sucess h3{
+  text-align: center;
+}
+.sucess img{
+  width:300px;
+  height:233px;
+  gap: 80px;
+  opacity: 0px;
+  margin-left: 40px;
+
+}
+.container{
+  display: flex;
+}
+.question-side .question{
+  flex: 1;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+.container .question-side h1 {
+  margin-left: 120px;
+}
+.container .question-side p{
+  margin-left: 120px;
+  font-weight: 600;
+}
+.container .question p{
+  margin-left: 400px;
+  font-weight: 600;
+  
+}
+.container .question para-1{
+  margin-top: 120px;
+}
+ .question .question-side .frequently-ask{ 
+  color: #f6841f;
+}
+.last-section{
+  background-color: #3D2010;
+}
+
+.last-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer,
+.footer_2,
+.footer_3,
+.footer_4 {
+  padding: 20px;
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+.last-section img{
+  width: 813.94px;
+  height: 322px;
+  margin: 0 auto;
+  display:block;
+}
+.last-section .ending p{
+  color: #9F9F9F;
+}
+.container h1{
+  text-align: center;
+  color: #DE6F0D;
+}
+
+
+

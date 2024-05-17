@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Details</title>
+  <style>
+    .regis-form{
+      position: fixed;
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      background-color: transparent; 
+      padding: 20px; 
+      border: 1px solid #EA7D28; 
+      border-radius: 5px; 
+      box-shadow:#EA7D28; 
+      z-index: 1000; 
+      width: 70%;
+      height: 50%;
+    }
+    img{
+      width: 1500px;
+      height: 900px;
+    }
+    .colour{
+      color: #EA7D28;
+    }
+    #place{
+      background-color:white;
+      border-radius: 12px;
+      border-top: 50%;
+      width: 200px;
+      height:25px;
+      border-color: #EA7D28;
+    }
+    button{
+      border-radius: 12px;
+      background-color : #EA7D28;
+      color: white;
+      border: none;
+      width: 100px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <form id="registration" class="regis-form">
+    <h1 class="colour">Clove Dental Corporate Consultation</h1>
+    <h3>Welcome!If your company is partnered with Clove Dental,fill out this form to book your <br>consultation.We're excited to care fpr your smile!</h3>
+    <h1 class="colour">Step 1. Employment Details</h1>
+    <input type="text" id="place" placeholder="Full Name">
+    <input type=" text" id="place" placeholder="Select Company" ><br><br>
+    <input type=" text" id="place" placeholder="Employee ID" >
+    <input type="email" id="place" placeholder="Official e-mail"><br><br>
+    <input type="number" id="place" placeholder="Mobile">
+    <input type="number" id="place" placeholder="Enter OTP">
+    <button>SUBMIT</button>
+  </form>
+  <img src="images/clove logo (1).png" alt="">
+  <script>
+    document.getElementById('registration').addEventListener('submit',function(){
+      event.preventDefault();
+      alert('Your Application has been Registered');
+      window.location.href='clove.html';
+    })
+  </script>
+</body>
+</html>
